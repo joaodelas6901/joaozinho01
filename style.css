@@ -61,7 +61,7 @@ body {
     display: block;
 }
 
-.botao-ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
@@ -71,7 +71,7 @@ body {
     padding: 40px;
     border-radius: 0 0 40px 40px;
 }
-.aba-conteudo-ativo{
+.aba-conteudo.ativo{
     display:block;
 }
 
@@ -88,9 +88,29 @@ body {
     color: var(--verde);
     text-transform: uppercase;
 }
+
 .contador{
-    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contador-digito{
+    padding: 0 16px;
     text-align: center;
+    min-width: 100px;
+}
+
+.contador-digito-numero{
+    font-size: 80px;
+    margin: 0;
+
+}
+
+.contador-digito-texto{
+    color: var(--verde);
+    font-size: 20px;
+    margin: 0;
+
 }
 
 @media screen and (min-width: 768px) {
