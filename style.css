@@ -68,9 +68,8 @@ body {
 
 .abas-textos{
     background-color: var(--texto-fundo);
-    padding: 25 px;
+    padding: 40px;
     border-radius: 0 0 40px 40px;
-    width: 20%;
 }
 .aba-conteudo.ativo{
     display:block;
